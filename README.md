@@ -30,10 +30,10 @@ The file `server/models.py` defines models named `Customer` and `Item`.
 Run the following commands to create the tables for customers and items.
 
 ```console
-$ flask db init
+$pgrade head
+``` flask db init
 $ flask db migrate -m "initial migration"
-$ flask db upgrade head
-```
+$ flask db u
 
 ## Task#1 : Add Review and relationships with Customer and Item
 
